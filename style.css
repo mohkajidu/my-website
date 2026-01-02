@@ -1,4 +1,3 @@
-/* Responsive screen fit fix */
 * {
   margin: 0;
   padding: 0;
@@ -217,11 +216,11 @@ select:focus {
 }
 .news-sec {
   display: flex;
-  justify-content: center;   /* centers the whole block */
-  gap: 40px;                 /* equal space between items */
+  justify-content: center;   
+  gap: 40px;                 
   padding: 40px 20px;
-  max-width: 1200px;         /* limits width */
-  margin: 0 auto;            /* centers container */
+  max-width: 1200px;         
+  margin: 0 auto;            
   flex-wrap: wrap;
 }
 .news-secleft{
@@ -279,8 +278,6 @@ div span {
   text-align: right;
   padding-top: 5px;
 }
-
-/* Slider responsive fix */
 .slider {
   width: 68%;
   margin: 10px auto;
@@ -428,9 +425,6 @@ div span {
   padding: 10px;
   font-size: 19px;
 }
-
-
-/* ========== RESPONSIVE STYLES FOR MOBILE ========== */
 @media (max-width: 768px) {
 
   .header {
